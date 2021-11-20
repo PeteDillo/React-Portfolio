@@ -5,17 +5,19 @@ export default function topbar() {
         <div className="topbar">
             <div className='wrapper'>
                 <div className="left">
-                    <a href="#intro"className='logo'>pedro.</a>
+                    <a href="#intro"className='logo'>
+                        pedro.
+                    </a>
                     <div className="itemContainer">
                     <Person className="icon"/>
-                    <span>
-                        212-316-5584
-                    </span>
+                    <span>212-316-5584</span>
                     </div>
+                    <div className="itemContainer">
                     <Mail className="icon" />
                     <span>
-                        pedelgadillo@gmail.com
+                        pete@mail.net
                     </span>
+                </div>
                 </div>
                 <div className="right">
 
