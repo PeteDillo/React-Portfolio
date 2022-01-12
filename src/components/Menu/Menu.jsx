@@ -1,25 +1,29 @@
-import "./menu.scss"
+import "./menu.scss";
 
-export default function Menu() {
-    return (
-        <div className="menu">
-            <ul>
-                <li>
-                    <a href="#intro">Home</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Home</a>
-                </li>
-                <li>
-                    <a href="#works">Home</a>
-                </li>
-                <li>
-                    <a href="#tesimonials">Home</a>
-                </li>
-                <li>
-                    <a href="#intro">Home</a>
-                </li>
-            </ul>
-        </div>
-    )
+export default function Menu({menuOpen, setMenuOpen}) {
+  return (
+
+
+    <div className= {"menu " + (menuOpen && "active")}>
+      <ul>
+        <li>
+          <a href="#intro">Home</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#works">Works</a>
+        </li>
+        <li>
+          <a href="#tesimonials">Tesimonials</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+
+  );
 }
