@@ -5,7 +5,6 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
       <div class="bgimg">
         <div class="topleft">
-          <p>Logo</p>
         </div>
         <div class="middle">
           <h1>COMING SOON</h1>
