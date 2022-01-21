@@ -3,7 +3,7 @@ import Intro from './Intro/Intro'
 import Portfolio from './Portfolio/Portfolio'
 import Works from './Works/Works'
 import Testimonials from './Testimonials/Testimonials'
-import Contact from './Contact/Contact'
+//import Contact from './Contact/Contact'
 import './app.scss'
 import React, { useState } from 'react';
 import Menu from "./Menu/Menu"
